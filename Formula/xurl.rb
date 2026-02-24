@@ -5,21 +5,21 @@ class Xurl < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuanwo/xurl/releases/download/v0.0.16/xurl-0.0.16-aarch64-apple-darwin.tar.gz"
-      sha256 "777cf49e86d087c62533bc17b49ca51a407639898ad503f9cd432e7afd5d1bcc"
+      url "https://github.com/Xuanwo/xurl/releases/download/v0.0.17/xurl-0.0.17-aarch64-apple-darwin.tar.gz"
+      sha256 "a201b80c2c7d288a9a42ca3338c174331d52ce65df4b238b04a276b5335f6d07"
     else
-      url "https://github.com/Xuanwo/xurl/releases/download/v0.0.16/xurl-0.0.16-x86_64-apple-darwin.tar.gz"
-      sha256 "be4c009e5a03f916cd9af8f534651bc29d6005064158ab4a29ca20bfcee66224"
+      url "https://github.com/Xuanwo/xurl/releases/download/v0.0.17/xurl-0.0.17-x86_64-apple-darwin.tar.gz"
+      sha256 "75d8098c9b3cf4ebf58f6a56c84b6ee20ee48c85d538c3dca7cd733657930a57"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuanwo/xurl/releases/download/v0.0.16/xurl-0.0.16-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3bbadef9601efc6e3f2ada958f3bb03af9e218ab8fa595e9844947401fdd831f"
+      url "https://github.com/Xuanwo/xurl/releases/download/v0.0.17/xurl-0.0.17-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c0a24c58cb47f10fa524552eec052eb3ecbecf128ba8c58e22da87c5eead1dc9"
     else
-      url "https://github.com/Xuanwo/xurl/releases/download/v0.0.16/xurl-0.0.16-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6739f635e9a19d5d8effb223ade520f70b4d17ca04bd8a2e50c88e650df1ef56"
+      url "https://github.com/Xuanwo/xurl/releases/download/v0.0.17/xurl-0.0.17-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "74c41f1603869da4d8027b8afe771af85bf84ec7ac2e47cb55cc5c265ae0f579"
     end
   end
 
