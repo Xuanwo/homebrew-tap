@@ -1,7 +1,6 @@
 class Xurl < Formula
   desc "Client for AI agent URLs"
   homepage "https://github.com/Xuanwo/xurl"
-  version "0.0.14"
   license "Apache-2.0"
 
   on_macos do
@@ -32,4 +31,3 @@ class Xurl < Formula
     assert_match "Usage: xurl", shell_output("#{bin}/xurl --help")
   end
 end
-
