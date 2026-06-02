@@ -31,4 +31,3 @@ class Asfml < Formula
     assert_match "Usage: asfml", shell_output("#{bin}/asfml --help")
   end
 end
-
