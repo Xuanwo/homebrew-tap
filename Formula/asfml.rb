@@ -5,21 +5,21 @@ class Asfml < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuanwo/asfml/releases/download/v0.1.0/asfml-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c7793da78c18c28f55b4f6df973ed2ab949617c32f9fd69ef142ea8b7af5843f"
+      url "https://github.com/Xuanwo/asfml/releases/download/v0.1.1/asfml-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "5336e4eb14b6dd0fa9fa7ebb7f0b505f3bcc966ba3531b546e6292a491a18e7e"
     else
-      url "https://github.com/Xuanwo/asfml/releases/download/v0.1.0/asfml-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "541a96ec8173972d27a922faefaee9fc96ec08984903c273d9f3ca069c2bdb31"
+      url "https://github.com/Xuanwo/asfml/releases/download/v0.1.1/asfml-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0c25ee0d2a0be07f80f876bfc9be2953e2a6f78a343e1d3afb48813f957c5851"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuanwo/asfml/releases/download/v0.1.0/asfml-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e1e8531428e157f67ce01eec427f0e4996c62231557e713e1073734f74033f6f"
+      url "https://github.com/Xuanwo/asfml/releases/download/v0.1.1/asfml-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fd2f34e21aafebb0b0c79c509aebc3a314c7bfd7db7c40faa5553b02e152afce"
     else
-      url "https://github.com/Xuanwo/asfml/releases/download/v0.1.0/asfml-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4c46cdc413c7ac91649f9a7bfaefcd37b93e412e768cacf7b3fa09492d38d95f"
+      url "https://github.com/Xuanwo/asfml/releases/download/v0.1.1/asfml-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1ca5c6466b921bf2a515de5666b6c7d871294f8869fb451b65a002c64211e470"
     end
   end
 
